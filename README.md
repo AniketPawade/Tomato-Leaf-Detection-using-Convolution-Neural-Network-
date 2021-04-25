@@ -10,45 +10,10 @@ Images of Tomato disease have been taken from Plant Village dataset. The dataset
 
 There are mainly nine types of diseases in tomato: 1) Target Spot, 2) Mosaic virus, 3) Bacterial spot, 4) Late blight, 5) Leaf Mold, 6) Yellow Leaf Curl Virus, 7) Spider mites: Two-spotted spider mite, 8) Early blight and 9) Septoria leaf spot. In proposed work, there are 10000 images in training dataset, 7000 images in validation dataset and 500 images in testing dataset. Out of 10000 training images, 1000 images belong to healthy category and 1000 images belong to each tomato disease category described above.
 
-**Model Summary**
+**Model Summery**
 
-Model: "sequential"
-_________________________________________________________________
-Layer (type)        |         Output Shape         |     Param #   
-=================================================================
-conv2d (Conv2D)              (None, 126, 126, 32)      896       
-_________________________________________________________________
-max_pooling2d (MaxPooling2D) (None, 63, 63, 32)        0         
-_________________________________________________________________
-conv2d_1 (Conv2D)            (None, 61, 61, 64)        18496     
-_________________________________________________________________
-max_pooling2d_1 (MaxPooling2 (None, 30, 30, 64)        0         
-_________________________________________________________________
-conv2d_2 (Conv2D)            (None, 28, 28, 128)       73856     
-_________________________________________________________________
-max_pooling2d_2 (MaxPooling2 (None, 14, 14, 128)       0         
-_________________________________________________________________
-conv2d_3 (Conv2D)            (None, 12, 12, 256)       295168    
-_________________________________________________________________
-max_pooling2d_3 (MaxPooling2 (None, 6, 6, 256)         0         
-_________________________________________________________________
-dropout (Dropout)            (None, 6, 6, 256)         0         
-_________________________________________________________________
-flatten (Flatten)            (None, 9216)              0         
-_________________________________________________________________
-dense (Dense)                (None, 128)               1179776   
-_________________________________________________________________
-dropout_1 (Dropout)          (None, 128)               0         
-_________________________________________________________________
-dense_1 (Dense)              (None, 256)               33024     
-_________________________________________________________________
-dropout_2 (Dropout)          (None, 256)               0         
-_________________________________________________________________
-dense_2 (Dense)              (None, 10)                2570      
-=================================================================
-Total params: 1,603,786
-Trainable params: 1,603,786
-Non-trainable params: 0
+![image](https://user-images.githubusercontent.com/82939124/115995754-240a6480-a5fa-11eb-99a1-6aab0a27bdf7.png)
+
 
 **Prediction Result**
 

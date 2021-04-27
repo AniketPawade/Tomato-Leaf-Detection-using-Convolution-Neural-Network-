@@ -1,6 +1,10 @@
 # Tomato-Leaf-Detection-using-Convolution-Neural-Network
 Tomato is the most popular crop in the world,it is the crop which is cultivated worldwide. India ranked 2 in the production of tomato. However, the quality and quantity of tomato crop goes down due to the various kinds of diseases. So, to detect the disease a deep learning-based approach with local deployment used. For the disease detection and classification, a Convolution Neural Network based approach is applied. 
 
+**Demo**
+
+https://user-images.githubusercontent.com/82939124/116209327-6d27f900-a75f-11eb-8c5f-fde06033d0c2.mp4
+
 
 **Dataset**
 
